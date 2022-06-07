@@ -1,0 +1,96 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "FileUploaderService",
+    "description": "Swagger Document"
+  },
+  "host": "localhost:3001",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/uploadFile": {
+      "post": {
+        "description": "TODO: Add Description",
+        "summary": "upload-file",
+        "tags": [
+          "API LIST"
+        ],
+        "operationId": "UploadFilePost",
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Disposition",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "uploadedFile",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/update-url": {
+      "get": {
+        "description": "",
+        "summary": "update-url",
+        "tags": [
+          "API LIST"
+        ],
+        "operationId": "UpdateUrlGet",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/create-thumbnail": {
+      "get": {
+        "description": "",
+        "summary": "create-thumbnail",
+        "tags": [
+          "API LIST"
+        ],
+        "operationId": "CreateThumbnailGet",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    }
+  }
+}
