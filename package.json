@@ -1,0 +1,36 @@
+{
+  "name": "LHT",
+  "description": "LHT file uploader service",
+  "version": "1.0.0",
+  "author": {
+    "name": "LHT",
+    "email": ""
+  },
+  "engines": {
+    "node": ">=6.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "forever server.js",
+    "nodemon": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "aws-sdk": "^2.215.1",
+    "body-parser": "1.15.2",
+    "co": "~4.6.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.4",
+    "cron-master": "^0.3.1",
+    "express": "4.14.0",
+    "forever": "~0.15.1",
+    "formidable": "^1.1.1",
+    "gm": "^1.23.0",
+    "mongoose": "^4.7.5",
+    "morgan": "~1.7.0",
+    "nodemon": "^2.0.15",
+    "slack-notifier": "0.0.3",
+    "swagger-ui-express": "^3.0.10",
+    "uuid": "^3.1.0"
+  }
+}

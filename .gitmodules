@@ -1,0 +1,3 @@
+[submodule "sub_module/lht_amqp_client_library"]
+	path = sub_module/lht_amqp_client_library
+	url = https://xinfin_leewayhertz:FRqTWfPVjBk9netVNmnb@bitbucket.org/leewayhertz/lhtamqpclientlibrary.git
